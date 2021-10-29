@@ -217,7 +217,7 @@ Lorsque que vous êtes sur batterie, il est recommandé de changer les paramètr
     <string name="engine_name_in_use">Nom du module en cours d\'utilisation</string>
     <string name="slash_not_allowed">Caractère / non autorisé</string>
     <string name="engine_error">Erreur du module</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Sélectionner le module</string>
     <string name="engine_options">Options du Moteur</string>

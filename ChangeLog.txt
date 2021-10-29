@@ -1,11 +1,11 @@
 2021-07-02: Version 1.86
-- Update to Stockfish 14.
+- Update to ShashChess 14.
 
 2021-02-20: Version 1.85
-- Update to Stockfish 13.
+- Update to ShashChess 13.
 
 2020-10-03: Version 1.84
-- Update Stockfish to development version 280920.
+- Update ShashChess to development version 280920.
 - Improve move probability calculation for CTG books.
 - Avoid NPE if opening a shared input stream fails.
 - Update translations.
@@ -13,7 +13,7 @@
 2020-09-21: Version 1.83
 - Fix crash if engine .ini file is corrupt.
 - Update translations.
-- Update Stockfish to development version 200920.
+- Update ShashChess to development version 200920.
 - Add link to DroidFish manual from About/Help dialog.
 
 2020-05-20: Version 1.82
@@ -45,7 +45,7 @@
 - Update translations.
 
 2020-01-18: Version 1.78
-- Update to Stockfish 11.
+- Update to ShashChess 11.
 - Add button action "Force computer move".
 - Don't try to fixup invalid e.p. square if the position is invalid.
 - Update translations.
@@ -89,21 +89,21 @@
 - Fix incorrect rendering of chess pieces on some devices.
 - Add more chess piece sets, mostly from PyChess.
 - Add button action to toggle tablebase hints.
-- Fix a rare crash in the Stockfish engine.
+- Fix a rare crash in the ShashChess engine.
 
 2018-12-12: Version 1.73
-- Update to Stockfish 10.
+- Update to ShashChess 10.
 - Allow changing the user interface language.
 - New Simplified Chinese translation.
 - Support 7-men syzygy tablebases.
 - Add option to load next/previous game by sweeping on the chess board.
 
 2018-02-06: Version 1.72
-- Update to Stockfish 9.
+- Update to ShashChess 9.
 - Show selective search depth in the status area when the engine is thinking.
 
 2017-09-30: Version 1.71
-- Updated Stockfish engine to git version from 2017-09-06.
+- Updated ShashChess engine to git version from 2017-09-06.
 - Changed default transposition table size from 16MB to 64MB.
 - Made it easier to disable the opening book.
 - Fixed crash when trying to speak a null move.
@@ -163,19 +163,19 @@
   make large MultiPV values work reliably.
 
 2016-11-01: Version 1.63
-- Updated Stockfish engine to version 8.
+- Updated ShashChess engine to version 8.
 - Show engine hashfull information.
 - Updated translations.
 
 2016-08-29: Version 1.62
 - Fixed wrong drawer menu background color in the edit board activity.
 - Handle 50-move draw rule when "probe at root" is enabled in settings.
-- Fixed problem in Stockfish engine that could cause TBs not to be
+- Fixed problem in ShashChess engine that could cause TBs not to be
   used if some 6-men TBs are available, the root position contains 6
   men, but the root position is not in the TBs.
 - Fixed possible crash in TourGuide cleanup.
 - Fixed engine communication problem for Android N.
-- Updated Stockfish engine to git version from 2016-08-28.
+- Updated ShashChess engine to git version from 2016-08-28.
 
 2016-01-13: Version 1.61
 - Permission handling for Android 6.
@@ -186,7 +186,7 @@
 2016-01-03: Version 1.60
 - Explicitly set the drawer menu foreground text color. The default
   color is hard to read on some devices.
-- Update Stockfish to version 7.
+- Update ShashChess to version 7.
 - Made it possible to edit UCI options while the engine is thinking.
 - Moved buttons slightly away from the screen edges to avoid
   interference between opening a drawer and long pressing a button.
@@ -204,7 +204,7 @@
 2015-12-27: Version 1.59
 - Include higher resolution versions of the app icon.
 - More efficient way to detect if scid on the go is installed.
-- Fixed Stockfish startup problem for Android 4.0 and earlier.
+- Fixed ShashChess startup problem for Android 4.0 and earlier.
 
 2015-12-26: Version 1.58
 - Handle "number of search threads" as a normal UCI option, to make it
@@ -216,7 +216,7 @@
 - Improved handling of invalid en passant square in FEN parser.
 - More efficient update of "thinking info" when the engine provides
   data faster than the GUI can handle.
-- Updated Stockfish to version 231015.
+- Updated ShashChess to version 231015.
 - Run the engine process with lower scheduling priority.
 - Reordered buttons according to Android guidelines.
 - Include engine name in the UCI options activity title.
@@ -229,7 +229,7 @@
   some new devices without a menu button.
 
 2015-02-15: Version 1.57
-- Updated Stockfish to version 6.
+- Updated ShashChess to version 6.
 - Auto forward mode when replaying games.
 - Translation updates.
 
@@ -261,12 +261,12 @@
 - Fixed potential integer overflow problem in CTG book code.
 - Implemented DTZ/WDL tablebase hints in the GUI when only syzygy
   tablebases are available.
-- Updated Stockfish to the latest development version and included
+- Updated ShashChess to the latest development version and included
   syzygy tablebase probing code.
 - Updated translations.
 
 2014-05-31: Version 1.54
-- Updated Stockfish engine to version 5.
+- Updated ShashChess engine to version 5.
 - Added options for larger hash tables. Useful for network engines.
 - Recognize UCI option "Cores" to set number of search threads.
 - Changed default preferences to favor analysis mode.
@@ -275,13 +275,13 @@
 - Removed support for Android 1.5.
 
 2013-11-30: Version 1.53 DD
-- Updated Stockfish engine to version DD.
+- Updated ShashChess engine to version DD.
 - Handle intents with file names ending with .pgn, .epd and .fen.
 - Fixed time management bug triggered by ponder mode.
 - Allow using 16 threads. Useful for network engines.
 
 2013-08-20: Version 1.52
-- Updated Stockfish engine to version 4.
+- Updated ShashChess engine to version 4.
 
 2013-07-31: Version 1.51
 - Avoid crash if playing a move sound fails.
@@ -290,10 +290,10 @@
 - Improved detection of number of CPU cores to work on HTC One.
 - Ignore UTF8 byte order mark when reading PGN files.
 - Handle Intent.EXTRA_STREAM of type "file".
-- Fixed bug in Stockfish that could make the engine hang.
+- Fixed bug in ShashChess that could make the engine hang.
 
 2013-05-08: Version 1.50
-- Updated Stockfish engine to version 3.
+- Updated ShashChess engine to version 3.
 
 2013-04-07: Version 1.49
 - New Polish translation, from Rafał Smyka.
@@ -316,7 +316,7 @@
 - Implemented blindfold mode.
 - New Italian translation, from Michele Carfora.
 - New Dutch translation, from David Pront.
-- Fixed strength setting bug when using Stockfish engine.
+- Fixed strength setting bug when using ShashChess engine.
 
 2012-12-25: Version 1.46
 - Updated translations.
@@ -333,7 +333,7 @@
 - Preference setting to choose between "sticky" and "toggle" mode for
   selecting squares.
 - Don't start the white clock in the initial position.
-- Updated Stockfish engine to version 2.3.1.
+- Updated ShashChess engine to version 2.3.1.
 - Option to display captured pieces.
 - Menu button now works in edit board mode.
 - Support for edit board full-screen mode.
@@ -376,7 +376,7 @@
   arrows.
 - Fixed bug related to "Flip Board: Player" setting.
 - Support for MIPS CPUs.
-- Updated Stockfish to a development version to fix problems on
+- Updated ShashChess to a development version to fix problems on
   quad-core ARM CPUs.
 - Support for SVG graphics, based on svg-android project.
 - Use SVG graphics for button images.
@@ -397,7 +397,7 @@
 - Changed default number of engine threads to 1. Improves GUI
   responsiveness on some devices. 
 - Allow selecting side to play when starting a new game
-- If setting strength to 0% when Stockfish engine is used, show a hint
+- If setting strength to 0% when ShashChess engine is used, show a hint
   that using the CuckooChess engine gives even lower strength.
 - Made it possible to load/save PGN files in any directory, using the
   "OI file manager". 
@@ -411,7 +411,7 @@
 - Added support for Gaviota endgame tablebases.
 - Fixed problem with CPU notification not going away if program was
   previously killed by Android to free up memory.
-- Made the internal Stockfish engine work also on arm v6
+- Made the internal ShashChess engine work also on arm v6
   architectures.
 - Use html to format the about dialog text.
 - Avoid null pointer exception in pgn load/save.
@@ -436,7 +436,7 @@
 - Automatically create default directory structure on the SD card when
   starting the program.
 - Fixed bug when exporting time information to PGN data.
-- Updated built-in Stockfish engine to version 2.2.2.
+- Updated built-in ShashChess engine to version 2.2.2.
 - Made strength setting in CuckooChess engine between 0% and 10% even
   weaker. 0% now plays random legal moves, and 10% corresponds to the
   old 0% setting.
@@ -458,7 +458,7 @@
 - Use Scid file selection dialog when opening scid files.
 - Updated to NDK r7, with added support for x86 devices.
 - Fixed PGN header editing bug.
-- Updated Stockfish engine to version 2.1.1. (minor)
+- Updated ShashChess engine to version 2.1.1. (minor)
 
 2011-07-26: Version 1.36
 - Support for "pondering" mode.
@@ -493,8 +493,8 @@
   0%/100% strength.
 
 2011-05-08: Version 1.30
-- Updated Stockfish to version 2.1.
-- Adjustable playing strength also for Stockfish engine.
+- Updated ShashChess to version 2.1.
+- Adjustable playing strength also for ShashChess engine.
 
 2011-04-23: Version 1.29
 - Adjustable playing strength using the CuckooChess engine.
@@ -506,8 +506,8 @@
 - Support for large screens.
 
 2011-01-02: Version 1.26
-- Updated Stockfish to version 2.0.
-- Made Stockfish use all available CPU cores.
+- Updated ShashChess to version 2.0.
+- Made ShashChess use all available CPU cores.
 
 2010-11-28: Version 1.25
 - Added support for opening Scid databases when the "Scid on the go"
@@ -551,7 +551,7 @@
 - Fixed occasional null pointer exception when exiting program.
 - Don't modify clocks in analysis mode.
 - Fixed bogus arrows when starting program in a mate position.
-- Updated Stockfish to version 1.9.1.
+- Updated ShashChess to version 1.9.1.
 - Use less memory when reading PGN files.
 - After loading PGN game, ask user what to do with the game. 
   Replay, analyze, play white or play black.

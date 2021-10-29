@@ -217,7 +217,7 @@ Um gegebenenfalls Strom zu sparen, ist es empfehlenswert, dass Sie diese Paramet
     <string name="engine_name_in_use">Name der verwendeten Engine</string>
     <string name="slash_not_allowed">Zeichen / ist nicht erlaubt</string>
     <string name="engine_error">Engine-Fehler</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Schach-Engine auswählen</string>
     <string name="engine_options">Engine-Optionen</string>

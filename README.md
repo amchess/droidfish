@@ -1,7 +1,7 @@
 # Introduction
 
 *DroidFish* is a feature-rich graphical chess user interface, combined with
-the very strong *Stockfish* chess engine.
+the very strong *ShashChess* chess engine.
 
 *DroidFish* is primarily designed for engine analysis of chess positions and
 viewing and editing of chess games. It can also be used for playing games, either
@@ -126,10 +126,10 @@ game mode that was used before analysis mode was enabled is restored.
 For engines that can reduce their playing strength using the UCI_LimitStrength
 and UCI_Elo options, it is possible to specify the engine playing strength by
 opening the *Left drawer menu* and selecting *Set Engine Strength*. Both
-built-in engines (*Stockfish* and *CuckooChess*) can reduce their playing
+built-in engines (*ShashChess* and *CuckooChess*) can reduce their playing
 strength.
 
-The available Elo range can be different for different engines. If *Stockfish*
+The available Elo range can be different for different engines. If *ShashChess*
 is playing too strong even on the lowest setting, consider switching to the
 *CuckooChess* engine which is able to play at a much weaker level. At the lowest
 setting, *CuckooChess* plays random legal moves so it should be usable also for

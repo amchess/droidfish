@@ -33,15 +33,15 @@ public class EngineUtil {
         System.loadLibrary("nativeutil");
     }
 
-    /** Return file name of the internal stockfish executable. */
-    public static String internalStockFishName() {
+    /** Return file name of the internal shashchess executable. */
+    public static String internalShashChessName() {
         String abi = Build.CPU_ABI;
         if (!"x86".equals(abi) &&
                 !"x86_64".equals(abi) &&
                 !"arm64-v8a".equals(abi)) {
             abi = "armeabi-v7a"; // Unknown ABI, assume 32-bit arm
         }
-        return abi + "/stockfish" + (isSimdSupported() ? "" : "_nosimd");
+        return abi + "/shashchess" + (isSimdSupported() ? "" : "_nosimd");
     }
 
     /** Return true if file "engine" is a network engine. */

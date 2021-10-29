@@ -42,8 +42,8 @@ public abstract class UCIEngineBase implements UCIEngine {
                                       EngineOptions engineOptions, Report report) {
         if ("cuckoochess".equals(engine))
             return new CuckooChessEngine();
-        else if ("stockfish".equals(engine))
-            return new InternalStockFish(report, engineOptions.workDir);
+        else if ("shashchess".equals(engine))
+            return new InternalShashChess(report, engineOptions.workDir);
         else if (EngineUtil.isOpenExchangeEngine(engine))
             return new OpenExchangeEngine(engine, engineOptions.workDir, report);
         else if (EngineUtil.isNetEngine(engine))

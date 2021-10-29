@@ -217,7 +217,7 @@
     <string name="engine_name_in_use">Ім\'я використовуваного рушія</string>
     <string name="slash_not_allowed">Символ / не допускається</string>
     <string name="engine_error">Помилка рушія</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Обрати рушій</string>
     <string name="engine_options">Параметри рушія</string>

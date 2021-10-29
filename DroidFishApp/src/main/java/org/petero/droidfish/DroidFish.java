@@ -1097,7 +1097,7 @@ public class DroidFish extends Activity
         mShowBookHints = settings.getBoolean("bookHints", false);
         mEcoHints = getIntSetting("ecoHints", ECO_HINTS_AUTO);
 
-        String engine = settings.getString("engine", "stockfish");
+        String engine = settings.getString("engine", "shashchess");
         setEngine(engine);
 
         mPonderMode = settings.getBoolean("ponderMode", false);
@@ -1313,8 +1313,8 @@ public class DroidFish extends Activity
 
     private void setEngine(String engine) {
         if (!storageAvailable()) {
-            if (!"stockfish".equals(engine) && !"cuckoochess".equals(engine))
-                engine = "stockfish";
+            if (!"shashchess".equals(engine) && !"cuckoochess".equals(engine))
+                engine = "shashchess";
         }
         ctrl.setEngine(engine);
         setEngineTitle(engine, ctrl.eloData().getEloToUse());
@@ -1338,7 +1338,7 @@ public class DroidFish extends Activity
         } else {
             eName = getString("cuckoochess".equals(engine) ?
                               R.string.cuckoochess_engine :
-                              R.string.stockfish_engine);
+                              R.string.shashchess_engine);
         }
         if (ctrl != null && !ctrl.analysisMode())
             if (elo != Integer.MAX_VALUE)
@@ -1367,7 +1367,7 @@ public class DroidFish extends Activity
 
     @Override
     public void updateEngineTitle(int elo) {
-        String engine = settings.getString("engine", "stockfish");
+        String engine = settings.getString("engine", "shashchess");
         setEngineTitle(engine, elo);
     }
 
@@ -1404,7 +1404,7 @@ public class DroidFish extends Activity
     private void computeNetEngineID() {
         String id = "";
         try {
-            String engine = settings.getString("engine", "stockfish");
+            String engine = settings.getString("engine", "shashchess");
             if (EngineUtil.isNetEngine(engine)) {
                 String[] lines = FileUtil.readFile(engine);
                 if (lines.length >= 3)
@@ -2554,14 +2554,14 @@ public class DroidFish extends Activity
 
     private static boolean reservedEngineName(String name) {
         return "cuckoochess".equals(name) ||
-               "stockfish".equals(name) ||
+               "shashchess".equals(name) ||
                name.endsWith(".ini");
     }
 
     private Dialog selectEngineDialog(final boolean abortOnCancel) {
         final ArrayList<String> items = new ArrayList<>();
         final ArrayList<String> ids = new ArrayList<>();
-        ids.add("stockfish"); items.add(getString(R.string.stockfish_engine));
+        ids.add("shashchess"); items.add(getString(R.string.shashchess_engine));
         ids.add("cuckoochess"); items.add(getString(R.string.cuckoochess_engine));
 
         if (storageAvailable()) {
@@ -3447,9 +3447,9 @@ public class DroidFish extends Activity
         builder.setMessage(getString(R.string.network_engine) + ": " + msg);
         builder.setPositiveButton(R.string.yes, (dialog, id) -> {
             new File(networkEngineToConfig).delete();
-            String engine = settings.getString("engine", "stockfish");
+            String engine = settings.getString("engine", "shashchess");
             if (engine.equals(networkEngineToConfig)) {
-                engine = "stockfish";
+                engine = "shashchess";
                 Editor editor = settings.edit();
                 editor.putString("engine", engine);
                 editor.apply();

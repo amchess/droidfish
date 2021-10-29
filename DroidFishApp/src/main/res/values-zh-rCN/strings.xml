@@ -217,7 +217,7 @@
     <string name="engine_name_in_use">引擎名称在使用</string>
     <string name="slash_not_allowed">字符 / 不允许</string>
     <string name="engine_error">引擎错误</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">选择引擎</string>
     <string name="engine_options">引擎选项</string>

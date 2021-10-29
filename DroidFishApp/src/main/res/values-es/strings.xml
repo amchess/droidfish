@@ -217,7 +217,7 @@ Si está usted utilizando la batería, se recomienda que cambie los ajustes para
     <string name="engine_name_in_use">Nombre del motor en uso</string>
     <string name="slash_not_allowed">Símbolo / no permitido</string>
     <string name="engine_error">Error del Motor</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Seleccionar motor</string>
     <string name="engine_options">Opciones del motor</string>

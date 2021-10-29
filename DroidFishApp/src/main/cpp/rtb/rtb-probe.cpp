@@ -2,7 +2,7 @@
   Copyright (c) 2013 Ronald de Man
   This file may be redistributed and/or modified without restrictions.
 
-  tbprobe.cpp contains the Stockfish-specific routines of the
+  tbprobe.cpp contains the ShashChess-specific routines of the
   tablebase probing code. It should be relatively easy to adapt
   this code to other chess engines.
 */

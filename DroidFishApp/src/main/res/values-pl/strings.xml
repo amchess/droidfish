@@ -217,7 +217,7 @@ Jeśli pracujesz na baterii, zalecana jest zmiana ustawień, w celu oszczędzani
     <string name="engine_name_in_use">Nazwa używanego silnika</string>
     <string name="slash_not_allowed">Znak / jest niedozwolony</string>
     <string name="engine_error">Błąd silnika</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Wybierz silnik</string>
     <string name="engine_options">Opcje silnika</string>

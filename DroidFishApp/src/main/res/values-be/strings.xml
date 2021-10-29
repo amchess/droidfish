@@ -217,7 +217,7 @@
     <string name="engine_name_in_use">Імя карыстанага рухавічка</string>
     <string name="slash_not_allowed">Знак / не дапушчаецца</string>
     <string name="engine_error">Абмыла рухавічка</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Выбраць рухавічок</string>
     <string name="engine_options">Параметры рухавічка</string>

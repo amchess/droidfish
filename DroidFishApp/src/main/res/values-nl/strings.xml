@@ -217,7 +217,7 @@ Als uw telefoon op batterij werkt is het aan te raden om deze instellingen te wi
     <string name="engine_name_in_use">Engine naam in gebruik</string>
     <string name="slash_not_allowed">Teken niet toegestaan</string>
     <string name="engine_error">Engine fout</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Selecteer engine</string>
     <string name="engine_options">Engine instellingen</string>

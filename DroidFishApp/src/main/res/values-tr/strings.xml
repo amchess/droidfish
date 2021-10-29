@@ -217,7 +217,7 @@ Pil gücüyle çalışıyorsanız, pil gücünden tasarruf etmek için ayarları
     <string name="engine_name_in_use">Kullanımdaki motor</string>
     <string name="slash_not_allowed">/ karakterine izin verilmiyor</string>
     <string name="engine_error">Motor hatası</string>
-    <string name="stockfish_engine">Stockfish</string>
+    <string name="shashchess_engine">ShashChess</string>
     <string name="cuckoochess_engine">CuckooChess</string>
     <string name="select_engine">Motoru seç</string>
     <string name="engine_options">Motor Seçenekleri</string>

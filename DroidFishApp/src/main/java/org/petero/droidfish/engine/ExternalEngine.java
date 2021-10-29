@@ -188,7 +188,7 @@ public class ExternalEngine extends UCIEngineBase {
     }
 
     private boolean keepExeDirFile(File f) {
-        return InternalStockFish.keepExeDirFile(f);
+        return InternalShashChess.keepExeDirFile(f);
     }
 
     private int hashMB = -1;

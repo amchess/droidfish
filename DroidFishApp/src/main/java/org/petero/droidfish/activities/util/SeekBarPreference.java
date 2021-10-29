@@ -143,8 +143,8 @@ public class SeekBarPreference extends Preference implements OnSeekBarChangeList
         editor.apply();
         if ((progress == 0) && showStrengthHint) {
             SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(getContext());
-            String engine = settings.getString("engine", "stockfish");
-            if ("stockfish".equals(engine)) {
+            String engine = settings.getString("engine", "shashchess");
+            if ("shashchess".equals(engine)) {
                 showStrengthHint = false;
                 if (getKey().equals("strength"))
                     DroidFishApp.toast(R.string.strength_cuckoo_hint, Toast.LENGTH_LONG);

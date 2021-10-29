@@ -77,11 +77,11 @@ task buildEco {
 }
 preBuild.dependsOn buildEco
 
-// Copy Stockfish executables to assets directory
+// Copy ShashChess executables to assets directory
 task copyToAssets(type: Copy, dependsOn: 'externalNativeBuildRelease') {
     from('build/intermediates/ndkBuild/release/obj/local') {
-        include '*/stockfish'
-        include '*/stockfish_nosimd'
+        include '*/shashchess'
+        include '*/shashchess_nosimd'
     }
     into 'src/main/assets'
 }
