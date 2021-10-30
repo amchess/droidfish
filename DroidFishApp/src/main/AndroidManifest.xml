@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.petero.droidfish"
+      package="org.amchess.droidfish"
       android:installLocation="auto">
     <supports-screens android:largeScreens="true"
                       android:anyDensity="true" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
-    <application android:name="org.petero.droidfish.DroidFishApp"
+    <application android:name="org.amchess.droidfish.DroidFishApp"
                  android:icon="@mipmap/ic_launcher"
                  android:roundIcon="@mipmap/ic_launcher_round"
                  android:theme="@style/AppTheme"
@@ -125,7 +125,7 @@
         </activity>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.petero.droidfish.fileprovider"
+            android:authorities="org.amchess.droidfish.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">
             <meta-data

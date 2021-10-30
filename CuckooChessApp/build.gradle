@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "org.petero.cuckoochess"
+        applicationId "org.amchess.cuckoochess"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 2

@@ -1,6 +1,6 @@
 /*
     Texel - A UCI chess engine.
-    Copyright (C) 2012-2014  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2012-2014  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
  * util.hpp
  *
  *  Created on: Feb 26, 2012
- *      Author: petero
+ *      Author: amchess
  */
 
 #ifndef UTIL_HPP_

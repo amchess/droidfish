@@ -1,6 +1,6 @@
 /*
     CuckooChess - A java chess program.
-    Copyright (C) 2011  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2011  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -375,7 +375,7 @@ public class EngineControl {
         os.println("option name UCI_AnalyseMode type check default false");
 
         os.printf("option name UCI_EngineAbout type string default %s by Peter Osterlund, see %s%n",
-                ComputerPlayer.engineName, "http://hem.bredband.net/petero2b/javachess/index.html");
+                ComputerPlayer.engineName, "http://hem.bredband.net/amchess2b/javachess/index.html");
         os.print("option name Strength type spin default 1000 min 0 max 1000\n");
         os.print("option name UCI_LimitStrength type check default false\n");
         os.print("option name UCI_Elo type spin default 1500 min -625 max 2400\n");

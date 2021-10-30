@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "org.petero.droidfish"
+        applicationId "org.amchess.droidfish"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 96

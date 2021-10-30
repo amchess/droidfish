@@ -29,7 +29,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.petero.droidfish.activities.Preferences;
+import org.amchess.droidfish.activities.Preferences;
 
 /**
  * @author Sergey Margaritov

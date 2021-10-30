@@ -16,7 +16,7 @@
             layout="@layout/title" />
 
         <view
-            class="org.petero.droidfish.ChessBoardPlay"
+            class="org.amchess.droidfish.ChessBoardPlay"
             android:id="@+id/chessboard"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
@@ -84,7 +84,7 @@
         </LinearLayout>
 
         <view
-            class="org.petero.droidfish.view.MyRelativeLayout"
+            class="org.amchess.droidfish.view.MyRelativeLayout"
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
@@ -95,7 +95,7 @@
                 android:layout_height="fill_parent">
 
                 <view
-                    class="org.petero.droidfish.view.MoveListView"
+                    class="org.amchess.droidfish.view.MoveListView"
                     android:id="@+id/moveList"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             </ScrollView>
 
             <view
-                class="org.petero.droidfish.view.MyScrollView"
+                class="org.amchess.droidfish.view.MyScrollView"
                 android:id="@+id/scrollViewBot"
                 android:layout_alignParentBottom="true"
                 android:layout_width="fill_parent"

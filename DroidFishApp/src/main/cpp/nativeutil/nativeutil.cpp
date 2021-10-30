@@ -1,6 +1,6 @@
 /*
     DroidFish - An Android chess program.
-    Copyright (C) 2011-2012  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2011-2012  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,11 +30,11 @@
 #endif
 
 /*
- * Class:     org_petero_droidfish_engine_EngineUtil
+ * Class:     org_amchess_droidfish_engine_EngineUtil
  * Method:    chmod
  * Signature: (Ljava/lang/String;)Z
  */
-extern "C" JNIEXPORT jboolean JNICALL Java_org_petero_droidfish_engine_EngineUtil_chmod
+extern "C" JNIEXPORT jboolean JNICALL Java_org_amchess_droidfish_engine_EngineUtil_chmod
   (JNIEnv *env, jclass, jstring jExePath) {
     const char* exePath = env->GetStringUTFChars(jExePath, NULL);
     if (!exePath)
@@ -45,21 +45,21 @@ extern "C" JNIEXPORT jboolean JNICALL Java_org_petero_droidfish_engine_EngineUti
 }
 
 /*
- * Class:     org_petero_droidfish_engine_EngineUtil
+ * Class:     org_amchess_droidfish_engine_EngineUtil
  * Method:    reNice
  * Signature: (II)V
  */
-extern "C" JNIEXPORT void JNICALL Java_org_petero_droidfish_engine_EngineUtil_reNice
+extern "C" JNIEXPORT void JNICALL Java_org_amchess_droidfish_engine_EngineUtil_reNice
   (JNIEnv *env, jclass, jint pid, jint prio) {
     setpriority(PRIO_PROCESS, pid, prio);
 }
 
 /*
- * Class:     org_petero_droidfish_engine_EngineUtil
+ * Class:     org_amchess_droidfish_engine_EngineUtil
  * Method:    isSimdSupported
  * Signature: ()Z
  */
-extern "C" JNIEXPORT jboolean JNICALL Java_org_petero_droidfish_engine_EngineUtil_isSimdSupported
+extern "C" JNIEXPORT jboolean JNICALL Java_org_amchess_droidfish_engine_EngineUtil_isSimdSupported
     (JNIEnv *env, jclass) {
 #if defined(__arm__)
     using namespace cpu_features;

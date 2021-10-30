@@ -1,6 +1,6 @@
 /*
     CuckooChess - A java chess program.
-    Copyright (C) 2011  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2011  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -186,7 +186,7 @@ public class Search {
     final public Move iterativeDeepening(MoveGen.MoveList scMovesIn,
             int maxDepth, long initialMaxNodes, boolean verbose) {
         tStart = System.currentTimeMillis();
-//        log = TreeLogger.getWriter("/home/petero/treelog.dmp", pos);
+//        log = TreeLogger.getWriter("/home/amchess/treelog.dmp", pos);
         totalNodes = 0;
         if (scMovesIn.size <= 0)
             return null; // No moves to search

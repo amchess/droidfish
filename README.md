@@ -12,7 +12,7 @@ A much weaker chess engine called *CuckooChess* is also included in
 *DroidFish*. Its primary feature is that it can be made to play very weakly so
 that even beginners have a reasonable chance to beat it.
 
-<a href="https://f-droid.org/repository/browse/?fdid=org.petero.droidfish" target="_blank">
+<a href="https://f-droid.org/repository/browse/?fdid=org.amchess.droidfish" target="_blank">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
 
 
@@ -636,7 +636,7 @@ settings, open the UCI options editor and click `RESET` and `OK`.
 * Install chess network server software on the remote computer.
 
   * For Windows and Linux, install the Engine server software from the
-    [DroidFish](http://hem.bredband.net/petero2b/droidfish/index.html) page.
+    [DroidFish](http://hem.bredband.net/amchess2b/droidfish/index.html) page.
 
   * Alternatively for Linux, `mini-inetd` from the `tcputils` package can be
     used.

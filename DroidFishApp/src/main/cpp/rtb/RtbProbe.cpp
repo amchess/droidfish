@@ -1,6 +1,6 @@
 /*
     DroidFish - An Android chess program.
-    Copyright (C) 2011-2012  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2011-2012  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 static bool initOk = false;
 
 JNIEXPORT jboolean
-JNICALL Java_org_petero_droidfish_tb_RtbProbe_init(
+JNICALL Java_org_amchess_droidfish_tb_RtbProbe_init(
         JNIEnv* env, jclass cls, jstring jTbPath)
 {
     initOk = false;
@@ -39,7 +39,7 @@ JNICALL Java_org_petero_droidfish_tb_RtbProbe_init(
 }
 
 JNIEXPORT void
-JNICALL Java_org_petero_droidfish_tb_RtbProbe_probe(
+JNICALL Java_org_amchess_droidfish_tb_RtbProbe_probe(
         JNIEnv* env, jobject ths, jbyteArray jSquares, jboolean wtm,
         jint epSq, jint castleMask,
         jint halfMoveClock, jint fullMoveCounter,

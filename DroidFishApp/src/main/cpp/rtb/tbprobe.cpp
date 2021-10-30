@@ -1,6 +1,6 @@
 /*
     Texel - A UCI chess engine.
-    Copyright (C) 2014  Peter Österlund, peterosterlund2@gmail.com
+    Copyright (C) 2014  Peter Österlund, amchesssterlund2@gmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
  * tbprobe.cpp
  *
  *  Created on: Jun 2, 2014
- *      Author: petero
+ *      Author: amchess
  */
 
 #include "tbprobe.hpp"
